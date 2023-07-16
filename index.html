@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Marvel vs Capcom - Clash of Heroes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/images/Design sem nome.svg" alt="Logo Marvel vs Capcom" />
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Select your Hero</h1>
+      <ul class="lista-personagens">
+        <li class="personagem selecionado" id="ryu" data-name = "Ryu" data-description = "Ryu é o protagonista principal da série Street Fighter da Capcom. Ele é um artista marcial disciplinado, dedicando seu tempo ao treinamento para se tornar o mais forte que pode." >
+          <img src="./src/images/card-ryu.jpg" alt="Personagem Ryu" />
+        </li>
+
+        <li class="personagem" id="capitaoamerica" data-name = "Capitão America" data-description = "Capitão América, nome real Steven Grant -Steve Rogers-, é um super-herói dos quadrinhos da Marvel. Ele é um Vingador e um símbolo da América desde a década de 1940. Ele é um super soldado com habilidades físicas aprimoradas e durabilidade, e empunha um escudo circular de Vibranium.">
+          <img src="./src/images/card-capitaoamerica.jpg" alt="Personagem Capitão America" />
+        </li>
+
+        <li class="personagem" id="hulk" data-name = "Hulk" data-description = " Hulk, nome real Robert Bruce Banner, é um super-herói dos quadrinhos da Marvel. Ele é um cientista que foi exposto a quantidades extremas de radiação gama, alterando seu DNA e transformando-o em um monstro verde gigante.">
+          <img src="./src/images/card-hulk.jpg" alt="Personagem Hulk" />
+        </li>
+
+        <li class="personagem" id="homem-aranha" data-name = "Homem-Aranha" data-description = "Homem-Aranha, nome real Peter Benjamin Parker, é um super-herói dos quadrinhos da Marvel. Ele foi picado por uma aranha radioativa e adquiriu habilidades sobre-humanas semelhantes às de uma aranha, como agilidade e sentidos aguçados. Com sua genialidade em ciência física, ele também inventou um lançador de teias para auxiliar em suas atividades de combate ao crime."
+        >
+          <img src="./src/images/card-homem-aranha.jpg" alt="Personagem Homem-Aranha" />
+        </li>
+
+        <li class="personagem" id="venon" data-name = "Venom" data-description = "Edward Charles Allan -Eddie Brock-, o hospedeiro do simbionte que primeiro adota o nome Venom, é um Anti-Herói da série Homem-Aranha da Marvel. Ele era um jornalista que se uniu a um simbionte alienígena em busca de vingança contra seu inimigo em comum.">
+
+          <img src="./src/images/card-venon.jpg" alt="Personagem Venom">
+        </li>
+
+        <li class="personagem" id="jin" data-name = "Jin" data-description = "Jin Saotome é o personagem principal de Cyberbots: Fullmetal Madness, um jogo desenvolvido e publicado pela Capcom. Ele é o piloto da Armadura Variante BX-02 BLODIA">
+          <img src="./src/images/card-jin.jpg" alt="Personagem Jin" />
+        </li>
+
+        <li class="personagem" id="megaman" data-name = "Megaman" data-description = "Mega Man, conhecido como Rockman no Japão, é o personagem principal da série Mega Man da Capcom. Criado para ser um assistente de seu criador, Dr. Light, ele foi reprogramado para lutar contra o cientista louco Dr. Wily e seu exército crescente de robôs e impedi-los de dominar o planeta.">
+          <img src="./src/images/card-megaman.jpg" alt="Personagem Megaman" />
+        </li>
+
+        <li class="personagem" id="wolverine" data-name = "Wolverine" data-description = "Wolverine, nome real James Howlett ou comumente conhecido como Logan, é um personagem da série X-Men da Marvel. Ele é um mutante com sentidos aguçados como os de um animal, garras retráteis de Adamantium e uma poderosa capacidade regenerativa, sendo frequentemente envolvido com os X-Men.">
+          <img src="./src/images/card-wolverine.jpg" alt="Personagem Wolverine" />
+        </li>
+      </ul>
+    </section>
+
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/images/card-ryu.png" alt="Personagem Selecionado"/>
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Ryu</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+            Ryu é o protagonista principal da série Street Fighter da Capcom. Ele é um artista marcial disciplinado, dedicando seu tempo ao treinamento para se tornar o mais forte que pode.
+
+            Ryu apareceu em todos os jogos da série desde X-Men vs. Street Fighter. Ele também é um dos quatro mascotes do universo da Capcom.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/script.js"></script>
+</body>
+
+</html>
