@@ -15,9 +15,8 @@ modificado a partir do projeto X-men.
 
 ### Links
 
-- Solution URL: (https://rub1nh0.github.io/Projeto-Marvel-vs-Capcom/)
+- Solution URL: (https://rub1nh0.github.io/Projeto-Marvel-vs-Capcom/
 
-- 
 ### Built with
 
 - Semantic HTML5 markup
